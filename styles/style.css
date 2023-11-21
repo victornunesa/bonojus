@@ -1,0 +1,10 @@
+.btn {
+    border-radius: 20px;
+}
+
+.bg-image-1 {
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}

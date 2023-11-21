@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <div class="d-flex align-items-center">
+              <img src="./assets/icon-pro-bono-2.png" alt="Logo" width="50" height="44" class="d-inline-block align-text-top">
+              <span class="mx-2">BONO JUS</span>
+            </div>
+          </a>
+            
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./servicos.html">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
+            <form class="d-flex gap-4" role="search">
+              <button class="btn btn-outline-success" type="submit">Cadastro</button>
+              <button class="btn btn-outline-danger" type="submit">Login</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-12">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active bg-image-1 vh-100">
+                    <div class="container h-100 d-flex justify-content-center">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="text-center text-black bg-white rounded px-3 pb-2">
+                                <h3 class="titulo-carrosel pt-5">SERVIÇOS DISPONÍVEIS</h3>
+                                <p class="texto-carrosel">Bem-Vindo à área de serviços</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <section class="py-5">
+        <div class="container">
+            <h2 class="text-center pb-3">SERVIÇOS</h2>
+            <div class="row">
+
+                <div class="col-4 d-flex justify-content-center text-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/apoio-juridico.jpg" class="card-img-top" alt="..." style="height: 191px;">
+                    <div class="card-body">
+                    <h5 class="card-title">Apoio Juridico <br>Gratuito</h5>
+                    <p class="card-text">O apoio jurídico gratuito refere-se à assistência legal fornecida a indivíduos que não têm recursos financeiros para pagar por serviços jurídicos. Em muitos países, o acesso à justiça é considerado um direito</p>
+                    <a href="#" class="btn btn-primary">Clique aqui</a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-4 d-flex justify-content-center text-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/background-agendamento.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Agendamento com advogados</h5>
+                    <p class="card-text">Agendar uma reunião ou consulta com um advogado é um processo pelo qual uma pessoa interessada em obter aconselhamento jurídico ou assistência legal marca um horário específico para se encontrar com o advogado. </p>
+                    <a href="#" class="btn btn-primary">Clique aqui</a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-4 d-flex justify-content-center text-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/advogado-acompanhamento.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Acompanhe do caso em <br>tempo real</h5>
+                    <p class="card-text">Esse acompanhamento pode ser realizado de diferentes maneiras, dependendo do sistema judicial específico e das políticas locais. 
+                            Alguns países disponibilizam sistemas online nos quais as pessoas podem consultar.
+                    </p>
+                    <a href="#" class="btn btn-primary">Clique aqui</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
